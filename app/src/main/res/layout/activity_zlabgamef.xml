@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zlabgameg"
+    android:orientation="vertical"
+    android:background="@drawable/gg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" >
+
+            <TextView
+                android:id="@+id/gidnew6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="serif"
+                android:textColor="@color/white"
+                android:textAlignment="textEnd"
+                android:textSize="100dp"
+                android:textStyle="bold|italic"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="%"
+                android:textColor="@color/white"
+                android:textSize="100dp"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/aastn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="new"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/aamarks"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/aatotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/abstn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="new"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/abmarks"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/abtotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/azstn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="new"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/azmarks"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/aztotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/marks"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+            <Button
+                android:background="@drawable/homea"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:id="@+id/ethome"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <Button
+                android:background="@drawable/answers"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/etadd"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

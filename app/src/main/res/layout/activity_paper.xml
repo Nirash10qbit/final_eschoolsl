@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paper"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bgg">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/ppage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/ic_arrow_back_black_24dp"
+                        android:onClick="ppage"
+                        tools:ignore="OnClick" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0">
+                    <Button
+                        android:id="@+id/ddbtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:background="@drawable/ic_file_download_black_24dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:background="@drawable/round"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            />
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:background="@drawable/editb"
+            android:onClick="editsim"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/dcsub"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:background="@drawable/deleteb" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/ppdfview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.github.barteksc.pdfviewer.PDFView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

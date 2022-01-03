@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/alua"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/background"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/nun"
+                android:gravity="center"
+                android:text="Marks between"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"/>
+
+            <TextView
+                android:id="@+id/stm"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:layout_constraintEnd_toStartOf="@+id/ma"
+                android:background="@color/nun"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/nun"
+                android:gravity="center"
+                android:text="Number of Students"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/stn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/nun"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

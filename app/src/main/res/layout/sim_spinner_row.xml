@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10">
+        <TextView
+            android:id="@+id/text_view_sim_name"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="12dp"
+            android:gravity="right"
+            android:text="en"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_view_sim"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:text="Add Simulation"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+
+</LinearLayout>

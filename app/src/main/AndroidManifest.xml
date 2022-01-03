@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myclass">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ESchoolSL"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".chart"></activity>
+        <activity
+            android:name=".zlabload"
+            android:screenOrientation="landscape" />
+        <activity android:name=".analyseless" />
+        <activity android:name=".zanalyseless" />
+        <activity android:name=".zanlesson" />
+        <activity android:name=".zanalyse" />
+        <activity android:name=".editnewsim" />
+        <activity android:name=".addnewsim" />
+        <activity
+            android:name=".gameze"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gamezd"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gamezc"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gamezb"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".gameza"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgamemenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabnewload"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabnewmarks"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabviewsimd"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabviewsimc"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabviewsimb"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabviewsima"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabviewsim"
+            android:screenOrientation="landscape" />
+        <activity android:name=".zsimnew" />
+        <activity android:name=".editsim" />
+        <activity android:name=".zanswers" />
+        <activity android:name=".zgamemarks" />
+        <activity android:name=".zgametotal" />
+        <activity android:name=".ResetPassword" />
+        <activity android:name=".SendOTPActivity" />
+        <activity android:name=".VerifyOTPActivity" />
+        <activity
+            android:name=".addsim"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".labsub"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zlabmarks"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".editvlesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".editplesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".editlesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addvlesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".editsub"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zlabgameg"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgameae"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgamead"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgameac"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgameab"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgameaa"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgameze"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgamezd"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgamezc"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgamezb"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgameza"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".analyseact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testsubaddf"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zload"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".usersettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zlabgamef"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgamee"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgamed"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgamec"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgameb"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabgame"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabview"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".zlabsub"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adminsettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".analysesub"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".analyse"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zlab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".lab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forgetpassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zpaper"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zgamec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zgameb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zgame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zvpage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zppage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zpage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zplesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zvlesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zlesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zsubject"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zmenut"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zmenue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".zmenus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".editsubject"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addgame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gamec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gameb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addplesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addlesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".paper"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vpage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ppage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".addsubject"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vlesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".lesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".plesson"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".subject"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menut"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menue"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".menus"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".load"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
